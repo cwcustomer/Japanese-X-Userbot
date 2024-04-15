@@ -66,7 +66,7 @@ async def alive_function(message: Message, answers):
         InlineQueryResultArticle(
             title="alipp",
             description="Check Bot's Stats",
-            thumb_url="https://graph.org/file/83978974fe5be2da118d7.jpg",
+            thumb_url="https://graph.org/file/13357bdb49d0069c95e09.jpg",
             input_message_content=InputTextMessageContent(
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
@@ -107,7 +107,7 @@ async def peler_function(message: Message, answers):
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url="https://t.me/Japanese_Userbot"), InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/Nobitaa_xd")], [InlineKeyboardButton(text="ᴍᴇɴᴜ", callback_data="reopen")]]
+                [[InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url="https://t.me/ll_ABOUT_SHIVANG_ll"), InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/ll_SHIVANG_ll")], [InlineKeyboardButton(text="ᴍᴇɴᴜ", callback_data="reopen")]]
             ),
         )
     )
